@@ -8,5 +8,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.sass'
 })
 export class App {
-  protected readonly title = signal('math-to-software-site');
+  protected readonly title = signal('math-to-software');
 }

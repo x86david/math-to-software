@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "math-to-software-site": {
+    "math-to-software": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -36,7 +36,7 @@
           "configurations": {
             "production": {
               "outputPath": "dist",
-              "baseHref": "/math-to-software-site/",
+              "baseHref": "/math-to-software/",
               "budgets": [
                 {
                   "type": "initial",
@@ -63,10 +63,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "math-to-software-site:build:production"
+              "buildTarget": "math-to-software:build:production"
             },
             "development": {
-              "buildTarget": "math-to-software-site:build:development"
+              "buildTarget": "math-to-software:build:development"
             }
           },
           "defaultConfiguration": "development"
